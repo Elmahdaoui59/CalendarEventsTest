@@ -144,6 +144,7 @@ class MainActivity : ComponentActivity() {
                 val uri: Uri? =
                     contentResolver.insert(CalendarContract.Events.CONTENT_URI, values)
 
+
                 if (uri != null) {
                     eventUris.add(uri)
                 }
